@@ -1,0 +1,23 @@
+Organizations:
+  -
+    Name: Org1
+    Pr: 0.95
+
+  -
+    Name: Org2
+    Pr: 0.95
+
+  -
+    Name: Org3
+    Pr: 0.95
+
+  -
+    Name: Org4
+    Pr: 0.75
+
+
+
+Policies:
+  Endorsement:
+    Type: Signature
+    Rule: "(Org1 & Org3) | (Org1 & Org2) | Org4"
